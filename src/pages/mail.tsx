@@ -35,7 +35,7 @@ const EmailPage = () => {
 
       setLoading(false);
     },
-    [setMail, setError, setLoading]
+    [setMail, setError, setLoading],
   );
 
   useEffect(() => {
@@ -53,19 +53,17 @@ const EmailPage = () => {
   return (
     <>
       <Head>
-        <title>
-          {isLoading ? "Reading Mail..." : mail?.subject || "(no subject)"}
-        </title>
+        <title>{isLoading ? "加载中..." : mail?.subject || "(无主题)"}</title>
         <meta name="description" content="Online email reader" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>
         {isLoading ? (
-          <div>Loading...</div>
+          <div>加载中...</div>
         ) : !!err || !mail ? (
           <div>{err}</div>
         ) : (
-          <div className="divide-y p-4 m-auto max-w-2xl bg-white">
+          <div className="max-w-2xl p-4 m-auto bg-white divide-y">
             {/*Show Mail*/}
             <Header
               subject={mail.subject || "(no subject)"}
