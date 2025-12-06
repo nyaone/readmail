@@ -11,9 +11,6 @@ importers:
       '@heroicons/react':
         specifier: ^2.2.0
         version: 2.2.0(react@19.2.1)
-      '@next/font':
-        specifier: 14.2.15
-        version: 14.2.15(next@16.0.7(react-dom@19.2.1(react@19.2.1))(react@19.2.1))
       '@types/node':
         specifier: 24.10.1
         version: 24.10.1
@@ -233,11 +230,6 @@ packages:
 
   '@next/env@16.0.7':
     resolution: {integrity: sha512-gpaNgUh5nftFKRkRQGnVi5dpcYSKGcZZkQffZ172OrG/XkrnS7UBTQ648YY+8ME92cC4IojpI2LqTC8sTDhAaw==}
-
-  '@next/font@14.2.15':
-    resolution: {integrity: sha512-QopYhBmCDDrNDynbi+ZD1hDZXmQXVFo7TmAFp4DQgO/kogz1OLbQ92hPigJbj572eZ3GaaVxNIyYVn3/eAsehg==}
-    peerDependencies:
-      next: '*'
 
   '@next/swc-darwin-arm64@16.0.7':
     resolution: {integrity: sha512-LlDtCYOEj/rfSnEn/Idi+j1QKHxY9BJFmxx7108A6D8K0SB+bNgfYQATPk/4LqOl4C0Wo3LACg2ie6s7xqMpJg==}
@@ -959,10 +951,6 @@ snapshots:
       '@jridgewell/sourcemap-codec': 1.5.5
 
   '@next/env@16.0.7': {}
-
-  '@next/font@14.2.15(next@16.0.7(react-dom@19.2.1(react@19.2.1))(react@19.2.1))':
-    dependencies:
-      next: 16.0.7(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
 
   '@next/swc-darwin-arm64@16.0.7':
     optional: true
