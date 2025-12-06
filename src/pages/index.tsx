@@ -8,7 +8,7 @@ export default function Home() {
         <meta name="description" content="Online email reader" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <main>Hello</main>
+      <main>OK</main>
     </>
   );
 }
